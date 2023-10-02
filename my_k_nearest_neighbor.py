@@ -1,4 +1,5 @@
-# import numpy as np
+import numpy as np
+
 class KNearestNeighbor:
 
     def __init__(self):
@@ -8,8 +9,9 @@ class KNearestNeighbor:
 
         self.X_train = X
         self.y_train = y
-        return self.y_train
-   
+        
+        return 11111111111111
+
 
 
 

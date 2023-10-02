@@ -8,8 +8,7 @@ class KNearestNeighbor:
 
         self.X_train = X
         self.y_train = y
-        
-        return 5
+        return self.y_train
    
 
 

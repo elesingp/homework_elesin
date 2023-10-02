@@ -15,7 +15,7 @@ class KNearestNeighbor:
 
         num_train = self.X_train.shape[0]
         num_test = X.shape[0] 
-        dists = mp.zeros((num_test, num_train))
+        dists = np.zeros((num_test, num_train))
         for i in range(num_test):
             for j in range(num_train):
                 dists[i][j] = math.sqrt((X_test[i])**2 + (X_train[j])**2)
